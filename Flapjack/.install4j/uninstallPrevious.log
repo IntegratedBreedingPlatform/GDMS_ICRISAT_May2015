@@ -1,0 +1,171 @@
+[INFO] logger started at Sat May 02 00:35:10 IST 2015
+[INFO] executable name: C:\Program Files (x86)\Flapjack\uninstall.exe
+[INFO] install4j version: 6.0.1 (build 6049)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Program Files (x86)\Flapjack\unins...
+sun.boot.library.path=c:\program files (x86)\flapjack\jre\bin
+exe4j.semaphoreName=Local\c:_program_files_(x86)_flapjack...
+java.vm.version=25.31-b07
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=US
+sun.os.patch.level=Service Pack 1
+install4j.exeDir=C:\Program Files (x86)\Flapjack\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Program Files (x86)
+java.runtime.version=1.8.0_31-b13
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\program files (x86)\flapjack\jre\l...
+os.arch=x86
+java.io.tmpdir=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=
+os.name=Windows 7
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Program Files (x86)\Flapjack\.\.in...
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=6.1
+user.home=C:\Users\psrikalyani.ICRISAT
+user.timezone=Asia/Calcutta
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=PSrikalyani
+java.class.path=C:\Program Files (x86)\Flapjack\.inst...
+windel.logfile=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+java.vm.specification.version=1.8
+sun.arch.data.model=32
+java.home=c:\program files (x86)\flapjack\jre
+sun.java.command=C:\Program Files (x86)\Flapjack\unins...
+install4j.upgradeUninstall=true
+exe4j.launchName=C:\PROGRA~2\Flapjack\UNINST~1.EXE
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode, sharing
+exe4j.unextractedPosition=0
+java.version=1.8.0_31
+java.ext.dirs=c:\program files (x86)\flapjack\jre\l...
+sun.boot.class.path=c:\program files (x86)\flapjack\jre\l...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Program Files (x86)\Flapjack\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+install4j.alternativeLogfile=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 1140]: Execute action
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property allRequested: false
+       Property rollbackSupported: false
+       Execute action successful after 25 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 16]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 10]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 10]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 11]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 12]: Execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction: executing auto uninstall
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: executing auto uninstall
+[ERROR] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 12]: java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at java.io.File.getCanonicalFile(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileRemover.handleClassPathFile(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileRemover.deleteFile(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileInstaller$4.run(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.actions.RunAction.execute(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionDirect(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeAction(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileInstaller.deleteFile(Unknown Source)
+	at com.install4j.runtime.beans.actions.UninstallFilesAction.uninstall(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl$2.fetchValue(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl$2.fetchValue(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.actions.FetchObjectAction.execute(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionDirect(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionChecked(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.fetchObjectChecked(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl.performActionIntStatic(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl.performActionInt(Unknown Source)
+	at com.install4j.runtime.installer.ContextImpl.performAction(Unknown Source)
+	at com.install4j.runtime.installer.controller.Controller.executeActions(Unknown Source)
+	at com.install4j.runtime.installer.controller.Controller.handleCommand(Unknown Source)
+	at com.install4j.runtime.installer.controller.Controller.start(Unknown Source)
+	at com.install4j.runtime.installer.Uninstaller.runInProcess(Unknown Source)
+	at com.install4j.runtime.installer.Uninstaller.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+	at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+	at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+        java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at java.io.File.getCanonicalFile(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileRemover.handleClassPathFile(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileRemover.deleteFile(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileInstaller$4.run(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.actions.RunAction.execute(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionDirect(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeAction(Unknown Source)
+	at com.install4j.runtime.installer.helper.fileinst.FileInstaller.deleteFile(Unknown Source)
+	at com.install4j.runtime.beans.actions.UninstallFilesAction.uninstall(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl$2.fetchValue(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl$2.fetchValue(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.actions.FetchObjectAction.execute(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionDirect(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionChecked(Unknown Source)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.fetchObjectChecked(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl.performActionIntStatic(Unknown Source)
+	at com.install4j.runtime.installer.UninstallerContextImpl.performActionInt(Unknown Source)
+	at com.install4j.runtime.installer.ContextImpl.performAction(Unknown Source)
+	at com.install4j.runtime.installer.controller.Controller.executeActions(Unknown Source)
+	at com.install4j.runtime.installer.controller.Controller.handleCommand(Unknown Source)
+	at com.install4j.runtime.installer.controller.Controller.start(Unknown Source)
+	at com.install4j.runtime.installer.Uninstaller.runInProcess(Unknown Source)
+	at com.install4j.runtime.installer.Uninstaller.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+	at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+	at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+[INFO] com.install4j.runtime.installer.helper.fileinst.FileRemover: postponing deletion of C:\Program Files (x86)\Flapjack\.install4j\i4jruntime.jar
+       postponing deletion of C:\Program Files (x86)\Flapjack\.install4j\user.jar
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 12]: Execute action successful after 5202 ms
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 11]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallSuccessScreen [ID 13]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallSuccessScreen [ID 13]: command: finish
+       cleaning up
+       Finished

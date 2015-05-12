@@ -1,0 +1,8 @@
+# install4j response file for Flapjack 1.15.04.27
+executeLauncherAction$Boolean=true
+sys.adminRights$Boolean=true
+sys.installationDir=C\:\\Program Files (x86)\\Flapjack
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=Flapjack

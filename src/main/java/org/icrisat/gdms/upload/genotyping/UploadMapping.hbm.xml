@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="org.icrisat.gdms.upload.genotyping">
+	
+	<class name="DatasetBean" table="gdms_dataset">
+  		<id name="dataset_id" column="dataset_id"></id>
+  		<property name="dataset_name"/>
+  		<property name="dataset_type"/>
+  		<property name="genus"/>
+  		<property name="species"/>
+  		<!-- <property name="template_date"/>-->
+  		<property name="upload_template_date"/>
+  		<property name="datatype"/>
+  		<property name="remarks"/>
+  		<property name="dataset_desc"/>
+  		<property name="missing_data"/>
+  		<property name="method"/>
+  		<property name="score"/>
+  		<property name="institute"/>
+  		<property name="principal_investigator"/>
+  		<property name="email"/>
+  		<property name="purpose_of_study"/>
+  		
+	</class> 
+  
+  	<class name="AccessionMetaDataBean" table="gdms_acc_metadataset">  		
+  		<id name="accMetadatasetId" column="acc_metadataset_id"></id>
+  		<property name="datasetId" column="dataset_id"/>
+  		<property name="gid"/>  
+  		<property name="nid"/>
+  		<property name="accSampleId" column="acc_sample_id"/>
+  			
+  	</class>  
+ 
+  	<class name="MarkerMetaDataBean" table="gdms_marker_metadataset">
+  		<id name="markerMetadatasetId" column="marker_metadataset_id"></id>
+  		<property name="datasetId" column="dataset_id"/>
+  		<property name="markerId" column="marker_id"/>
+  		<property name="markerSampleId" column="marker_sample_id"/>  		
+  	</class> 
+  
+  	<!-- <class name="ConditionsBean" table="dataset_details">
+  		<id name="dataset_id" column="dataset_id">
+  			
+  		</id>
+  		<property name="method_name"/>
+  		<property name="method_desc"/>
+  		<property name="missing_data"/>
+  	</class>-->  
+ 
+
+  
+   	<class name="CharArrayBean" table="gdms_char_values">
+  		<composite-id name="comKey" class="CharArrayCompositeKey">
+  			<key-property name="dataset_id"/>  			
+  			<key-property name="ac_id"/>
+  		</composite-id>		
+  			<property name="char_value"/>
+  			<property name="gid"/>
+  			<property name="marker_id"/>  	
+  			<property name="markerSampleId" column="marker_sample_id"/>
+  			<property name="accSampleID" column="acc_sample_id"/>		
+  	</class>
+
+
+  	<class name="GenotypeUsersBean" table="gdms_dataset_users">
+  		<id name="dataset_id"></id>
+	  	<property name="user_id"></property>
+  	</class>
+
+	<class name="MarkerInfoBean" table="gdms_marker">
+		<id name="markerId" column="marker_id"></id>
+	  	<property name="marker_type"></property>
+	  	<property name="marker_name"></property>
+	  	<property name="species"></property>
+	  	<property name="db_accession_id"></property>
+	  	<property name="reference"></property>
+	  	<property name="genotype"></property>
+	  	<property name="ploidy"></property>
+	  	<property name="primer_id"></property>
+	  	<property name="remarks"></property>	  	
+	  	<property name="assay_type"></property>
+	  	<property name="motif"></property>
+	  	<property name="forward_primer"></property>
+	  	<property name="reverse_primer"></property>
+	  	<property name="product_size"></property>
+	  	<property name="annealing_temp"></property>
+	  	<property name="amplification"></property>
+	  	
+	  	
+	</class>
+	
+	<class name="IntArrayBean" table="gdms_allele_values">
+  		<composite-id name="comKey" class="IntArrayCompositeKey">
+  			<key-property name="dataset_id"/>
+  			<key-property name="an_id"/>
+  		</composite-id>		
+		<property name="allele_raw_value"/>
+		<property name="gid"/>
+		<property name="marker_id"/>
+		<property name="allele_bin_value"></property>
+		<property name="markerSampleId" column="marker_sample_id"/>
+  		<property name="accSampleID" column="acc_sample_id"/>	
+  	</class>
+	<class name="DArTDetailsBean" table="gdms_dart_values">
+	  <id name="dataset_id"></id>
+	  <property  name="ad_id"/>
+	  <property name="marker_id"></property>
+	  <property name="clone_id"></property>
+	  <property name="qvalue"></property>
+	  <property name="reproducibility"></property>
+	  <property name="call_rate"></property>
+	  <property name="pic_value"></property>
+	  <property name="discordance"></property>
+	</class>
+	<!-- <class name="MapMarkersBean" table="gdms_markers_onmap">
+	  <id name="markerId" column="marker_id"></id>
+	  <property name="map_id"></property>
+	  <property name="linkage_group"></property>
+	  <property name="start_position"></property>
+	  <property name="end_position"></property>
+	 
+  </class>
+  
+    <class name="MapBean" table="gdms_map">    
+	  <id name="map_id" column="map_id"></id>
+	  <property name="map_name"></property>
+	  <property name="map_type"></property>	 
+	  <property name="mp_id"></property>	
+	   <property name="map_desc"></property>
+	   <property name="map_unit"></property>
+  </class>
+
+	<class name="MarkerUserInfoBean" table="gdms_marker_user_info">
+	  <id name="marker_id"></id>
+	  <property name="principal_investigator"></property>
+	  <property name="contact"></property>
+	  <property name="institute"></property>
+	  
+  </class>
+  
+	<class name="MarkerDetailsBean" table="gdms_marker_details">
+		<id name="marker_id"></id>
+	  	<property name="no_of_repeats"></property>
+		<property name="motif_type"></property>
+		<property name="sequence"></property>
+		<property name="sequence_length"></property>
+		<property name="min_allele"></property>
+		<property name="max_allele"></property>
+		<property name="ssr_nr"></property>
+		<property name="forward_primer_temp"></property>
+		<property name="reverse_primer_temp"></property>
+		<property name="elongation_temp"></property>
+		<property name="fragment_size_expected"></property>
+		<property name="fragment_size_observed"></property>
+		<property name="expected_product_size"></property>
+		<property name="position_on_reference_sequence"></property>
+		<property name="restriction_enzyme_for_assay"></property>
+  </class>
+  
+ 
+  <class name="MarkerAliasBean" table="gdms_marker_alias">
+  	<id name="markerId" column="marker_id"></id>
+  	<property name="alias"></property>
+  </class>
+
+
+	<class name="IntArrayBean" table="gdms_allele_values">
+  		<composite-id name="comKey" class="IntArrayCompositeKey">
+  			<key-property name="dataset_id"/>
+  			<key-property name="an_id"/>
+  		</composite-id>		
+		<property name="allele_raw_value"/>
+		<property name="gid"/>
+		<property name="marker_id"/>
+		<property name="allele_bin_value"></property>
+  	</class>
+	
+	<class name="DArTDetailsBean" table="gdms_dart_values">
+	  <id name="dataset_id"></id>
+	  <property  name="ad_id"/>
+	  <property name="marker_id"></property>
+	  <property name="clone_id"></property>
+	  <property name="qvalue"></property>
+	  <property name="reproducibility"></property>
+	  <property name="call_rate"></property>
+	  <property name="pic_value"></property>
+	  <property name="discordance"></property>
+	</class> -->
+	
+	<class name="QTLDetailsBean" table="gdms_qtl_details">
+		<id name="map_id"></id>
+		<property name="qtl_id"></property>
+		<property name="linkage_group"></property>	
+		<property name="position"></property>	
+		<property name="min_position"></property>
+		<property name="max_position"></property>
+		<property name="tid"></property>
+		<property name="experiment"></property>
+		<property name="left_flanking_marker"></property>
+		<property name="right_flanking_marker"></property>
+		<property name="effect"></property>
+		<!-- <property name="lod"></property>-->
+		<property name="clen"></property>
+		<property name="score_value"></property>
+		<property name="r_square"></property>
+		<property name="interactions"></property>
+		<property name="se_additive"></property>
+  		<property name="hv_parent"></property>
+  		<property name="hv_allele"></property>
+  		<property name="lv_parent"></property>
+  		<property name="lv_allele"></property>
+	</class>
+	<class name="QTLBean" table="gdms_qtl">
+		<id name="dataset_id"></id>
+		<property name="qtl_id"></property>
+		<property name="qtl_name"></property>
+	</class>
+	
+	<!-- <class name="DatasetGidsBean" table="dataset_gids">
+		<id name="gid"></id>
+		<property name="nid"></property>	
+		<property name="dataset_id"></property>
+	</class> -->
+	
+	<!-- <class name="UsersBean" table="users">
+		<id name="userid"></id>
+		<property name="instalid"></property>
+		<property name="ustatus"></property>		
+		<property name="uaccess"></property>
+		<property name="utype"></property>
+		<property name="uname"></property>
+		<property name="upswd"></property>
+		<property name="personid"></property>
+		<property name="adate"></property>
+		<property name="cdate"></property>
+		
+	</class> -->
+	
+	<class name="MappingPopCharValuesBean" table="gdms_mapping_pop_values">
+		<composite-id name="mapComKey" class="MapCharArrayCompositeKey">
+  			<key-property name="dataset_id"/>
+  			<key-property name="mp_id"/>
+  		</composite-id>	
+		<!-- <id name="mcid"></id>
+		<property name="dataset_id"></property> -->
+		<property name="gid"></property>		
+		<property name="marker_id"></property>
+		<property name="map_char_value"></property>
+		<property name="markerSampleId" column="marker_sample_id"/>
+  		<property name="accSampleID" column="acc_sample_id"/>
+		
+	</class>
+	<class name="MappingPopulationBean" table="gdms_mapping_pop">		
+		
+		<id name="dataset_id"/>
+		<property name="mapping_type"></property>
+		<property name="parent_a_nid"></property>		
+		<property name="parent_b_nid"></property>
+		<property name="population_size"></property>
+		<property name="population_type"></property>		
+		<property name="mapdata_desc"></property>
+		<property name="scoring_scheme"></property>
+		<property name="map_id"></property>
+		
+	</class>
+	
+	
+    <class name="MapBean" table="gdms_map">    
+	  <id name="map_id" column="map_id"></id>
+	  <property name="map_name"></property>
+	  <property name="map_type"></property>	 
+	  <property name="mp_id"></property>	
+	   <property name="map_desc"></property>
+	   <property name="map_unit"></property>
+	   <property name="genus" column="genus"/>
+	   <property name="species" column="species"/>
+	   <property name="institute" column="institute"/>
+  </class>
+   <class name="MapMarkersBean" table="gdms_markers_onmap">
+   		<id name="markeronmap_id" column="markeronmap_id"/> 
+	  <property name="markerId" column="marker_id"/>
+	  <property name="map_id"></property>
+	  <property name="linkage_group"></property>
+	  <property name="start_position"></property>
+	  <property name="end_position"></property>
+	 
+  </class>
+  
+	
+	<class name="MTABean" table="gdms_mta">
+		<id name="mta_id"/>
+		<property name="marker_id"/>
+		<property name="dataset_id"/>
+		<property name="map_id"/>
+		
+		<property name="position" column="position"/>
+		<property name="tid" column="tid"/>
+		<property name="effect"/>
+		<property name="scoreValue" column="score_value"/>
+		<property name="rSquare" column="r_square"/>
+		<property name="gene" column="gene"/>
+		<property name="chromosome" column="chromosome"/>
+		
+ 		<property name="alleleA" column="allele_a"/>
+ 		<property name="alleleB" column="allele_b"/>
+  		<property name="alleleAPhenotype" column="allele_a_phenotype"/>
+  		<property name="alleleBPhenotype" column="allele_b_phenotype"/>
+  		<property name="freqAlleleA" column="freq_allele_a"/>
+  		<property name="freqAlleleB" column="freq_allele_b"/>
+  		<property name="pValueUnCorrected" column="p_value_uncorrected"/>
+  		<property name="pValueCorrected" column="p_value_corrected"/>
+  		<property name="correctionMethod" column="correction_method"/>
+  		<property name="alleleATraitAvg" column="trait_avg_allele_a"/>
+  		<property name="alleleBTraitAvg" column="trait_avg_allele_b"/>
+  		<property name="dominance" column="dominance"/>
+  		<property name="evidence" column="evidence"/>
+  		<property name="reference" column="reference"/>
+  		<property name="notes" column="notes"/>  		
+	</class>
+	
+	<class name="MTAmetadataBean" table="gdms_mta_metadata">
+		<id name="datasetID" column="dataset_id"/>
+		<property name="project" column="project"/>
+		<property name="population" column="population"/>
+		<property name="populationSize" column="population_size"/>
+		<property name="populationUnits" column="population_units"/>	
+	</class>
+	
+	
+	<class name="GDMSTrackDataBean" table="gdms_track_data">
+		<id name="track_id"/>
+		<property name="track_name"></property>
+		<property name="user_id"></property>
+	
+	</class>
+	
+	<class name="GDMSTrackMarkersBean" table="gdms_track_markers">
+		<id name="tMarkerId" column="tmarker_id"/>
+		<property name="trackId" column="track_id"/>
+		<property name="markerId" column="marker_id"/>
+		<property name="markerSampleId" column="marker_sample_id"/>	
+	</class>
+	
+	<class name="MarkerUserInfoBean" table="gdms_marker_user_info">
+	  <id name="userinfo_id"></id>
+	  <property name="marker_id"></property>
+	  <property name="contact_id"></property>
+	 
+  </class>
+	
+	<class name="MarkerUserInfoDetailsBean" table="gdms_marker_user_info_details">	
+	
+	  <id name="contact_id"></id>
+	  <property name="principal_investigator"></property>
+	  <property name="contact"></property>
+	  <property name="institute"></property>
+	  
+  </class>
+	
+</hibernate-mapping>

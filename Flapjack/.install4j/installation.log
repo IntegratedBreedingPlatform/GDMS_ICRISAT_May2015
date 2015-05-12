@@ -1,0 +1,445 @@
+[INFO] logger started at Sat May 02 00:34:57 IST 2015
+[INFO] executable name: C:\Users\psrikalyani.ICRISAT\flapjack_windows_x86_1_15_04_27.exe
+[INFO] install4j version: 6.0.2 (build 6072)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Users\psrikalyani.ICRISAT\flapjack...
+sun.boot.library.path=c:\users\psrika~1.icr\appdata\local\t...
+exe4j.semaphoreName=Local\c:_users_psrikalyani.icrisat_fl...
+java.vm.version=25.45-b02
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=US
+sun.os.patch.level=Service Pack 1
+install4j.exeDir=C:\Users\psrikalyani.ICRISAT\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+java.runtime.version=1.8.0_45-b14
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\psrika~1.icr\appdata\local\t...
+os.arch=x86
+java.io.tmpdir=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+os.name=Windows 7
+sun.java2d.noddraw=true
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Program Files (x86)\Flapjack\.inst...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=6.1
+user.home=C:\Users\psrikalyani.ICRISAT
+user.timezone=Asia/Calcutta
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=PSrikalyani
+java.class.path=C:\Users\PSRIKA~1.ICR\AppData\Local\T...
+java.vm.specification.version=1.8
+sun.arch.data.model=32
+java.home=c:\users\psrika~1.icr\appdata\local\t...
+sun.java.command=C:\Users\psrikalyani.ICRISAT\flapjack...
+exe4j.launchName=C:\Users\PSRIKA~1.ICR\FL7867~1.EXE
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=29485009
+java.version=1.8.0_45
+java.ext.dirs=c:\users\psrika~1.icr\appdata\local\t...
+sun.boot.class.path=c:\users\psrika~1.icr\appdata\local\t...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\psrikalyani.ICRISAT\AppData\...
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 1140]: Execute action
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property allRequested: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 15]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 1]: Show screen
+[INFO] checking writable with maximum
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 1]: thread name AWT-EventQueue-0
+[INFO] Variable changed: sys.confirmedUpdateInstallation=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 1141]: Execute action
+       Property file: null
+       Property excludedVariables: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Variable changed: sys.programGroupName=Flapjack[class java.lang.String]
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+       Variable changed: sys.installationDir=C:\Program Files (x86)\Flapjack[class java.lang.String]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+       Execute action successful after 10 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 649]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 649]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 5]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 417]: Execute action
+       Property installationDirectory: null
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: true
+       checking running processes
+       checking running processes ok
+       getting previous installation id
+       starting uninstaller
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction$UninstallerThread: native uninstaller process returned 0
+       see uninstallPrevious.log for the log file of the uninstaller
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 417]: finished
+       Execute action successful after 17065 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 6]: Execute action
+       Property installRuntime: true
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property triggerReboot: true
+       Property showFileNames: true
+       Property directoryResolverScript: null
+       Property delay: false
+       Property fileFilterScript: null
+       Property rollbackSupported: true
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\awt.dll; size: 1182632 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:33:44 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\bci.dll; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\client\jvm.dll; size: 3814312 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:33:45 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\client\Xusage.txt; size: 1423 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\dcpr.dll; size: 143272 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\decora_sse.dll; size: 63400 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\deploy.dll; size: 438184 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\dt_shmem.dll; size: 25512 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\dt_socket.dll; size: 21928 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\eula.dll; size: 109480 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\fontmanager.dll; size: 222120 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\fxplugins.dll; size: 147880 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\glass.dll; size: 205736 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\glib-lite.dll; size: 403880 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\gstreamer-lite.dll; size: 496040 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\hprof.dll; size: 132008 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\instrument.dll; size: 116136 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\j2pcsc.dll; size: 16808 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\j2pkcs11.dll; size: 51112 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jaas_nt.dll; size: 19880 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jabswitch.exe; size: 30632 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\java-rmi.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\java.dll; size: 125864 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\java.exe; size: 190888 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\JavaAccessBridge-32.dll; size: 128424 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\javacpl.cpl; size: 146432 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\javacpl.exe; size: 68520 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\javafx_font.dll; size: 60328 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\javafx_font_t2k.dll; size: 436136 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\javafx_iio.dll; size: 118696 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\javaw.exe; size: 191400 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\java_crw_demo.dll; size: 23976 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jawt.dll; size: 14248 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\JAWTAccessBridge-32.dll; size: 15272 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jdwp.dll; size: 164264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jfr.dll; size: 22952 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jfxmedia.dll; size: 117160 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jfxwebkit.dll; size: 16311720 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jjs.exe; size: 15784 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:33:46 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jli.dll; size: 159144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jp2iexp.dll; size: 204712 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jp2launcher.exe; size: 76712 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jp2native.dll; size: 19368 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jp2ssv.dll; size: 172968 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jpeg.dll; size: 145832 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jsdt.dll; size: 16808 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jsound.dll; size: 31144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\jsoundds.dll; size: 28072 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\kcms.dll; size: 178600 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\keytool.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\kinit.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\klist.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\ktab.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\lcms.dll; size: 188328 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\management.dll; size: 33704 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\mlib_image.dll; size: 574888 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\net.dll; size: 78248 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\nio.dll; size: 50088 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\npt.dll; size: 17832 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\orbd.exe; size: 16296 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\pack200.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\policytool.exe; size: 16296 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\prism_common.dll; size: 47528 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\prism_d3d.dll; size: 142760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\prism_es2.dll; size: 39848 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\prism_sw.dll; size: 48040 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\resource.dll; size: 14760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\rmid.exe; size: 15784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\rmiregistry.exe; size: 16296 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:33:47 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\servertool.exe; size: 16296 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\splashscreen.dll; size: 177064 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\ssv.dll; size: 460712 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\ssvagent.exe; size: 51112 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\sunec.dll; size: 123816 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\sunmscapi.dll; size: 26024 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\t2k.dll; size: 193448 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\tnameserv.exe; size: 16296 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\unpack.dll; size: 65960 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\unpack200.exe; size: 159656 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\verify.dll; size: 39848 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\w2k_lsa_auth.dll; size: 21928 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\WindowsAccessBridge-32.dll; size: 98216 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\wsdetect.dll; size: 163240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\bin\zip.dll; size: 69032 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\COPYRIGHT; size: 3244 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\accessibility.properties; size: 155 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\calendars.properties; size: 1378 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\charsets.jar; size: 3035005 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:49 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\classlist; size: 80761 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:33:48 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\currency.data; size: 4074 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\ffjcext.zip; size: 14130 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_ko.properties; size: 5719 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_pt_BR.properties; size: 3348 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\splash.gif; size: 8590 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy\splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\deploy.jar; size: 4791488 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:49 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\access-bridge-32.jar; size: 186603 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:53 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\cldrdata.jar; size: 3837561 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:54 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\dnsns.jar; size: 8150 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\jaccess.jar; size: 43478 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\jfxrt.jar; size: 16588697 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\localedata.jar; size: 2206685 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\meta-index; size: 1511 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:34 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\nashorn.jar; size: 1968762 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:55 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\sunec.jar; size: 39773 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:43 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\sunjce_provider.jar; size: 278075 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\sunmscapi.jar; size: 32654 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\sunpkcs11.jar; size: 249387 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\ext\zipfs.jar; size: 67372 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:55 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:43 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fontconfig.bfc; size: 3670 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fontconfig.properties.src; size: 10479 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:44 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\i386\jvm.cfg; size: 623 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\javafx.properties; size: 30 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jce.jar; size: 114708 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jfr\default.jfc; size: 19918 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jfr\profile.jfc; size: 19874 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jfr.jar; size: 553453 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:49 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jfxswt.jar; size: 33350 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jsse.jar; size: 560784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:45 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\management\management.properties; size: 14097 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:49 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\meta-index; size: 2126 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:45 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\net.properties; size: 3070 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\plugin.jar; size: 1922576 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:49 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:48 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\resources.jar; size: 3487764 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:50 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\rt.jar; size: 54327797 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:52 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\blacklist; size: 4054 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:34:48 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\blacklisted.certs; size: 1188 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\cacerts; size: 98626 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\java.policy; size: 2466 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\java.security; size: 21854 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\local_policy.jar; size: 3527 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\security\US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\tzdb.dat; size: 102385 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\lib\tzmappings; size: 8400 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\LICENSE; size: 40 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\README.txt; size: 46 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\release; size: 526 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 110114 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\THIRDPARTYLICENSEREADME.txt; size: 178403 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\jre\Welcome.html; size: 955 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\updater.exe; size: 235056 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 27 14:21:02 IST 2015, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\creatematrix.exe; size: 206384 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 27 14:20:58 IST 2015, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\createproject.exe; size: 206384 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 27 14:20:56 IST 2015, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\flapjack.exe; size: 214064 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\castor-1.3.3-rc1-core.jar; size: 47966 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 27 14:20:54 IST 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\lib\castor-1.3.3-rc1-xml.jar; size: 838870 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\commons-lang-2.6.jar; size: 284271 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\commons-logging-1.1.1.jar; size: 60890 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\flapjack-resources.jar; size: 339773 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\flapjack.jar; size: 788973 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\jcommon-1.0.23.jar; size: 330246 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\jfreechart-1.0.19.jar; size: 1570157 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\office-2.0.jar; size: 70328 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\scri-commons.jar; size: 50455 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\lib\sqlite-jdbc-3.7.2.jar; size: 3142688 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\splitproject.exe; size: 206384 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 27 14:20:56 IST 2015, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\uninstall.exe; size: 318000 bytes; exists: false
+       File options set to: [fileTime: Mon Apr 27 14:21:08 IST 2015, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\inst_jre.cfg; size: 72 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:35:37 IST 2015, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\pref_jre.cfg; size: 37 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:35:37 IST 2015, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4jruntime.jar; size: 1524141 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:35:37 IST 2015, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\MessagesDefault; size: 32917 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4jparams.conf; size: 63021 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\stats.properties; size: 351 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\uninstallPrevious.log; size: 10887 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\user.jar; size: 17054 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4jdel.exe; size: 35680 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4jinst.dll; size: 101888 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_0_1ez79fv.utf8; size: 32917 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_1_1ez79fv.utf8; size: 35655 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_2_1ez79fv.utf8; size: 35462 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_3_1ez79fv_o9yl28.png; size: 5791 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_4_1ez79fv.html; size: 1410 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_5_1ez79fv_cwz6mn.png; size: 1028 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\i4j_extf_6_1ez79fv_1sxzjn7.png; size: 2565 bytes; exists: false
+       Install file: C:\Program Files (x86)\Flapjack\.install4j\installer.ico; size: 27766 bytes; exists: false
+       Execute action successful after 15288 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 7]: Execute action
+       Property categories: Application
+       Property addUninstaller: true
+       Property programGroupEntryConfigs: []
+       Property linkDirectory: 
+       Property allUsers: true
+       Property unixSymlinks: true
+       Property programGroupName: Flapjack
+       Property uninstallerMenuName: Flapjack Uninstaller
+       Property unixMenuEntries: true
+       Property addDefaultLauncherLinks: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Flapjack\Flapjack.lnk; size: 1859 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:35:39 IST 2015, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Flapjack\Flapjack Uninstaller.lnk; size: 1866 bytes; exists: false
+       File options set to: [fileTime: Sat May 02 00:35:41 IST 2015, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 3515 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 8]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: Flapjack 1.15.04.27
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 263 ms
+[INFO] com.install4j.runtime.beans.actions.misc.AddVmOptionsAction [ID 974]: Execute action
+       Property vmOptions: [-Xmx1024m]
+       Property launcherId: 18
+       Property macosVmOptionsType: Contained in the application bundle
+       Property rollbackSupported: true
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 492]: Execute action
+       Property extension: flapjack
+       Property windows: true
+       Property description: Flapjack Project
+       Property selected: true
+       Property launcherId: 18
+       Property macIconFile: null
+       Property macRole: Viewer
+       Property restartFinder: false
+       Property mac: true
+       Property windowsIconFile: null
+       Property winAdditionalParameters: null
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       using internal name flapjack
+       setting alternative handler
+       Execute action successful after 80 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 5]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 9]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID 727]: Execute action
+       Property launcherId: 18
+       Property arguments: null
+       Property rollbackSupported: false
+       Execute action successful after 553 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 9]: command: finish
+       cleaning up
+       Finished
